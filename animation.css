@@ -1,0 +1,72 @@
+.box{
+    width: 600px;
+    height: 200px;
+    background-color: pink;
+    color: azure;
+
+    /* For text Animation
+    animation-name: textAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse; */
+
+
+    /* for Color Animation 
+    animation-name: colorAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+
+    /* for size Animation */
+    animation-name: sizeAnimation;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+@keyframes sizeAnimation{
+    0%{
+        background-color: aqua;
+        font-size: 20px;
+    }
+    50%{
+        background-color: cadetblue;
+        font-size: 40px;
+
+    }
+    100%{
+        background-color: chocolate;
+    }
+}
+/*@keyframes sizeAnimation{
+    from{ width: 300px;
+        background-color: rgb(102, 192, 192);
+        font-size: 11px;
+    }
+    to{
+        height: 200px;
+        background-color: rgb(145, 81, 213);
+        font-size: 22px;
+    }
+}*/
+
+/*@keyframes textAnimation{
+    from{ font-size: 11px;
+    }
+    to{
+        font-size: 22px;
+    }
+}
+@keyframes colorAnimation{
+    from{ background-color: rgb(102, 192, 192);
+    }
+    to{
+        background-color: rgb(145, 81, 213);
+    }
+}    */
