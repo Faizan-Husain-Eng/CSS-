@@ -1,0 +1,9 @@
+div{
+    width: 125px;
+    height: 165px;
+    background-color: fuchsia;
+    margin: 10px auto;
+    background-image: url(Faizan.jpg.jpg);
+    background-size: contain ;
+    color: black;
+}
