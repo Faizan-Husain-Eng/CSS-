@@ -1,0 +1,12 @@
+div{
+    /* border-width: 5px; */
+    /* border-color: rgb(0, 255, 255); */
+    /* border-style: dashed; */
+    /*border: 5px solid green;*/
+    height: 500px;
+    width: 500px;
+   /* border-radius: 25%;*/
+    background-color: cadetblue;
+    border: solid 5px black;
+    border-top-right-radius: 50px;
+}
