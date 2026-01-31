@@ -1,0 +1,38 @@
+#container{
+    width: 80%;
+    height: 600px;
+    background-color: azure;
+    border: 2px solid black;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /*flex-wrap: wrap;
+    /*justify-content: baseline;*/
+    align-content: flex-start;
+
+}
+#blue{
+    /*align-self: flex-start;
+    /*flex-grow: 1;
+    width: 400;*/
+    /*flex-shrink: 1;*/
+    flex: 2 2 100px;
+}
+#org{
+
+    align-self: center;
+    width: 50px;
+    flex-shrink: 3;
+}
+h1{
+    text-align: center;
+}
+#container div{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size: 1.5em;
+    color: aliceblue;
+
+}
