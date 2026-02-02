@@ -1,0 +1,35 @@
+h1{
+    
+   background-color: blue;
+   border: 2px solid black;
+}
+@media( width: 400px){
+    h1{
+        background-color: rgb(135, 101, 101);
+        color: white;
+    }
+  
+}
+/*
+@media(min-width: 300px){
+    h1{
+        background-color: rgb(234, 1, 238);
+    }
+}    
+@media(max-width:200px){
+    h1{
+        background-color: rgb(255, 0, 0);
+    }
+}
+*/
+@media(min-width:200px)and(max-width:300px){
+    h1{
+        background-color: fuchsia;
+    }
+}
+@media(orientation: landscape) {
+    h1{
+        background-color:rgb(139, 2, 224) ;
+    }
+    
+}
