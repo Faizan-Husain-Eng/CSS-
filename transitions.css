@@ -1,0 +1,15 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    transition: margin-top 2s ease-in 0.2s;
+    /* transition-delay: 1s; */
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+div:hover{
+    background-color: black;
+    margin-top: 100px;
+
+}
