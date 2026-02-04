@@ -1,0 +1,95 @@
+    h1 {
+        color: #7860ff;
+        font-weight: 400;
+        letter-spacing: 2.5px;
+        font-size: 40px;
+        font-family: Arial;
+        font-style: "Gill Sans", sans-serif;
+    }
+    
+    p3 {
+        color: rgb(63, 71, 71);
+        background-color: aquamarine;
+        text-align: justify;
+        text-decoration: black underline;
+        font-size: 20px;
+        font-family: papyrus;
+    }
+    
+    h3 {
+        color: #2af4c2;
+        font-weight: bolder;
+        text-decoration: wavy pink overline;
+    }
+    
+    p {
+        color: rgb(63, 71, 71);
+        text-align: justify;
+        line-height: 20px;
+    }
+    
+    p2 {
+        color: rgb(63, 71, 71);
+        background-color: aquamarine;
+        text-align: justify;
+    }
+    
+    p1 {
+        color: rgb(63, 71, 71);
+        background-color: aquamarine;
+        text-align: justify;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+   p + h3 {
+    text-decoration: underline;
+   }
+   div + input {
+    background-color: brown;
+   }
+   input[type=text]{
+    color: deeppink;
+   }
+
+  input[type=password]
+   {
+    color: #aaf42a;
+  }
+  button:hover{
+    background-color: black;
+    color: whitesmoke;
+  }
+  h3:hover{
+    text-decoration: none;
+
+  }
+  p:active{
+    font-weight: bold;
+    color: black;
+    
+  }
+  button:active{
+    background-color: pink;
+    color: black;
+  }
+  i\nput[type="radio"]:checked + label
+{
+    color: red;
+    font-weight: bold;
+  }
+  div :nth-of-type(1n)
+  {
+    color: yellow;
+  }
+  h1::first-letter{
+    color: black;
+  }
+  p::first-line{
+    color: #aaf42a;
+  }
+  p::selection{
+    background-color: rgb(57, 165, 115);
+  }
